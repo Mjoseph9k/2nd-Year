@@ -1,0 +1,33 @@
+.header{
+    background: $clr-dark;
+    position: relative;
+    &_wrapper{
+        @include centerAll;
+        height: 1.5rem;
+    }
+    &_logo{
+        img{
+            width: 10rem;
+        }
+    }
+    &_nav{
+        ul{
+            display: none;
+            li{
+                a{
+                    color: $clr-font;
+                }
+            }
+        }
+    }
+    &_burger_btn{
+        span{
+            width: 22px;
+            height: 3px;
+            display: block;
+            background: $clr-light;
+            margin-bottom: 3px;
+            border-radius: 5px;
+        }
+    }
+}
